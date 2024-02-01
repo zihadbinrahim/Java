@@ -15,16 +15,6 @@ public class Temperature {
 	  
 	  System.out.println("Coversion to Celsiuds:"+c+" C");
 	  
-	  
-	
-		
-		
-		
-		
-		
-		
-		
-		
         
     }
 }
