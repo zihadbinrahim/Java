@@ -13,7 +13,7 @@ public class Temperature {
 	  	  
 	  c = ((5f/9f)*(f-32));
 	  
-	  System.out.println("Coversion to Celsiuds:"+c+" C");
+	  System.out.printf("Coversion to Celsiuds: % 2f",c," C");
 	  
         
     }
