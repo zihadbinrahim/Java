@@ -7,7 +7,6 @@ public class Temperature {
 		
 	Scanner input = new Scanner(System.in);
 		
-	
 	  System.out.print("Enter Farenheit Number:");
 	  f = input.nextFloat();
 	  	  
