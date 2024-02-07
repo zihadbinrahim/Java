@@ -6,17 +6,17 @@ public class AIUB {
      String department;
      
 	 
-	 Scanner input1 = new Scanner (System.in);
+	 Scanner input = new Scanner (System.in);
 	 System.out.print("Enter Your Name: ");
-	 name = input1.nextLine();
+	 name = input.nextLine();
 	 
-	 Scanner input2 = new Scanner (System.in);
+	 Scanner input = new Scanner (System.in);
 	 System.out.print("Enter ID:");
-	 id = input2.nextInt();
+	 id = input.nextInt();
 	 
-	 Scanner input3 = new Scanner (System.in);
+	 Scanner input = new Scanner (System.in);
 	 System.out.print("Enter Your Department Name:");
-	 department = input3.nextLine();
+	 department = input.nextLine();
 	 
 	 System.out.println("Name :"+name);
 	 System.out.println("Your id :"+id);
