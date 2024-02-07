@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Mark {
+
+    public static void main(String[] args) {
+		float a,b,c,d;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter 1st number: ");
+		a= input.nextFloat();
+		
+		
+		System.out.print("Enter 2nd number: ");
+		b= input.nextFloat();
+		
+		
+		System.out.print("Enter 3rd number: ");
+		c= input.nextFloat();
+		
+		
+		float sum = a+b+c;
+		
+		System.out.println("Sum of three number: "+(int)sum);
+		
+		
+		
+		
+		
+        
+    }
+}
