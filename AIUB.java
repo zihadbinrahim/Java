@@ -6,21 +6,21 @@ public class AIUB {
      String department;
      
 	 
-	 Scanner input1 = new Scanner (System.in);
+	 Scanner input = new Scanner (System.in);
+	 
 	 System.out.print("Enter Your Name: ");
-	 name = input1.nextLine();
-	 
-	 Scanner input2 = new Scanner (System.in);
+	 name = input.nextLine();
+
 	 System.out.print("Enter ID:");
-	 id = input2.nextInt();
-	 
-	 Scanner input3 = new Scanner (System.in);
+	 id = input.nextInt();
+     
+	 Scanner input1 = new Scanner (System.in);
 	 System.out.print("Enter Your Department Name:");
-	 department = input3.nextLine();
+	 department = input1.nextLine();
 	 
 	 System.out.println("Name :"+name);
 	 System.out.println("Your id :"+id);
 	 System.out.println("Your Department Name :"+department);
 	 
 	}
-}
+}  
