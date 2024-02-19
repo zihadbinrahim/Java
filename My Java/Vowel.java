@@ -5,9 +5,9 @@ public class Vowel {
 		
 		char ch;
 		
-		System.out.println("Enter Any Letter:");
+		System.out.print("Enter Any Letter:");
 		
-		ch = input.next(().CharAt(0);
+		ch = input.next().charAt(0);
 		
 		if (ch == 'a'){
 			System.out.println("Vowel");
