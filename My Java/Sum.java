@@ -14,7 +14,7 @@
 		 return a + b;
 	 }
 	 
-	 public void display (){
+	 public void display (){ //Display Fanction
 		 System.out.println (add());
 	 }
 	 
